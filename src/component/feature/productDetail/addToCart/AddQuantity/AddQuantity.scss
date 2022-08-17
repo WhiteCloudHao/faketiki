@@ -1,0 +1,69 @@
+.addQuantity {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    &__Adjusted {
+        background-color: #fff;
+        border: 1px solid rgb(236, 236, 236);
+        border-radius: 3px;
+        min-width: 30px;
+        height: 30px;
+        font-size: 20px;
+        padding: 0;
+        cursor: pointer;
+       
+    }
+    &__mount {
+       
+        padding: 0;
+        width: 40px;
+        font-size: 16px;
+        border-left: 0;
+        border-right: 0;
+       height: 28px;
+        text-align: center;
+        cursor:text;
+        &::-webkit-inner-spin-button {
+            -webkit-appearance: none !important;
+            margin: 0 !important;
+          }
+        &:focus {
+            outline: none;
+        }
+    }
+   
+}
+
+.hover {
+    &:hover {
+       
+        opacity: 0.9;
+        background-color:#ccc;
+    }
+}
+
+.addProudct {
+    margin: 12px 0;
+    width: 320px;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(255, 57, 69);
+    border: none;
+    border-radius: 3px;
+    &:hover {
+        background-color: rgb(255, 57, 69);
+    
+    } 
+    cursor: pointer;
+}
+.opacity {
+    opacity: 0.4;
+    cursor: default;
+    &:hover {
+        background-color: #fff;
+         opacity: 0.4;
+
+    }
+}
+
